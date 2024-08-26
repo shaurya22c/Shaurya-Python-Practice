@@ -1,0 +1,47 @@
+Basics:
+
+Variable
+Conditions
+Chained Conditions
+Operators
+Control flow
+Loops and Iterables
+Data Structures
+Functions
+Mutable vs Immutable
+Common methods
+File IO
+OOPs
+
+Intermediate:
+
+1. Comprehensions
+2. Lambda
+3. Collections module
+4. Map and Filter
+5. *args and **kwargs
+6. Inheritance
+7. Advanced class
+8. Behavior
+9. Module creation
+10. Async IO
+
+Advanced:
+
+1. Decorators
+2. Generators, Iterators
+3. Context managers
+4. Metaclasses
+5. Concurrency (multithreading)
+6. Testing
+7. Context managers
+8. Regex
+9. asyncio
+10.exception handling
+
+slicing
+zip
+enumerate
+** args, ** kwargs
+list, set, tuple, dictionary
+heap
