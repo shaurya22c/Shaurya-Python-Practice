@@ -24,11 +24,10 @@ Intermediate:
 7. Advanced class
 8. Behavior
 9. Module creation
-10. Async IO
 
 Advanced:
 
-1. Decorators
+1. Decorators, Closures
 2. Generators, Iterators
 3. Context managers
 4. Metaclasses
