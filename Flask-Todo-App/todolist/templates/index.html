@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form action="{{ url_for('add') }}" method="POST" class="add-form">
+        <input type="text" name="title" placeholder="Enter new task" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <ul class="task-list">
+        {% for task in todo_list %}
+            <li class="task-item {% if task.complete %}completed{% endif %}">
+                <span>{{ task.title }}</span>
+                <div class="actions">
+                    <a href="{{ url_for('update', todo_id=task.id) }}">&#10004;</a>
+                    <a href="{{ url_for('delete', todo_id=task.id) }}">&#10006;</a>
+                </div>
+            </li>
+        {% else %}
+            <li>No tasks added yet!</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
